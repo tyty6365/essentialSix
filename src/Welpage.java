@@ -9,7 +9,6 @@ public class Welpage {
 
             this.numID = numID;
 
-
         }
 
         public int getnumID() {
