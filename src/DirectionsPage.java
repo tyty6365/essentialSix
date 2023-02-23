@@ -7,8 +7,6 @@ import java.io.IOException;
 import java.awt.image.BufferedImage;
 import javax.swing.JButton;
 
-
-
 public class DirectionsPage extends EssentialScheduling{
 
     private boolean hasDoneTutorial = false;
