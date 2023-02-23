@@ -1,5 +1,10 @@
 import java.util.*;
-public class Taskbar {
+public class Taskbar implements Displayable{
+    @Override
+    public void display() {
+
+    }
+
     public class HomePage {
         // Class Variables
         private String linkToAccount;

@@ -1,4 +1,4 @@
-public class FlowChart {
+public class FlowChart implements Displayable{
 
     // Class variables
 
@@ -9,11 +9,21 @@ public class FlowChart {
 
     // Constructor
 
+    public FlowChart() {
+
+
+    }
+
     public FlowChart(String title, String[] steps) {
 
         this.title = title;
 
         this.steps = steps;
+
+    }
+
+    @Override
+    public void display() {
 
     }
 }

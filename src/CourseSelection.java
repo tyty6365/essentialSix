@@ -4,13 +4,15 @@ import java.awt.event.ActionListener;
 import java.util.ArrayList;
 
 
-    public class CourseSelection {
+    public class CourseSelection implements Displayable{
         String subjectName;
         String time;
         String professor;
         String section;
         ArrayList<String> currentSchedule = new ArrayList<>();
         JButton goBack = new JButton();
+
+        public CourseSelection(){}
 
         public CourseSelection(String name, String time1, String professor1, String section1) {
             this.subjectName = name;
@@ -42,5 +44,10 @@ import java.util.ArrayList;
                     System.out.println("You have arrived at home page");
                 }
             });
+        }
+
+        @Override
+        public void display() {
+
         }
     }

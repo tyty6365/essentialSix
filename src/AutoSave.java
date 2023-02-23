@@ -1,4 +1,4 @@
-public class AutoSave {
+public class AutoSave implements Displayable{
 
     // Class variables
 
@@ -9,7 +9,10 @@ public class AutoSave {
     private boolean active;
 
 
-    // Constructor
+    public AutoSave() {
+
+    }
+        // Constructor
 
     public AutoSave(String filename, int interval, boolean active) {
 
@@ -18,6 +21,11 @@ public class AutoSave {
         this.interval = interval;
 
         this.active = active;
+
+    }
+
+    @Override
+    public void display() {
 
     }
 }

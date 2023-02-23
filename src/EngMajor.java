@@ -1,4 +1,4 @@
-public class EngMajor {
+public class EngMajor implements Displayable{
     // Class variables
 
     private String name;
@@ -12,6 +12,11 @@ public class EngMajor {
 
     // Constructor
 
+    public EngMajor() {
+
+
+
+    }
     public EngMajor(String name, int age, String college, String specialization) {
 
         this.name = name;
@@ -49,4 +54,9 @@ public class EngMajor {
 
 
     public void setAge(int age) {}
+
+    @Override
+    public void display() {
+
+    }
 }

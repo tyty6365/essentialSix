@@ -1,13 +1,10 @@
-public class Welpage {
+public class Welpage implements Displayable{
 
         private int numID;
 
 
-        public Welpage(int numID) {
+        public Welpage() {
 
-
-
-            this.numID = numID;
 
         }
 
@@ -25,5 +22,9 @@ public class Welpage {
 
         }
 
+    @Override
+    public void display() {
+
     }
+}
 

@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.awt.image.BufferedImage;
 import javax.swing.JButton;
 
-public class DirectionsPage extends EssentialScheduling{
+public class DirectionsPage extends EssentialScheduling implements Displayable{
 
     private boolean hasDoneTutorial = false;
     ArrayList<ImageIO> panels = new ArrayList<>();
@@ -57,5 +57,9 @@ public class DirectionsPage extends EssentialScheduling{
         });
     }
 
+    @Override
+    public void display() {
+
+    }
 }
 
